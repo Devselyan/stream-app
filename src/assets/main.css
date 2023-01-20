@@ -1,0 +1,8 @@
+@import './base.css';
+
+
+body, html{
+  height: calc(100vh - 5rem) ;
+  width: 100vw ;
+  background-color: aqua;
+}
