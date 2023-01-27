@@ -6,3 +6,16 @@ body, html{
   width: 100vw ;
   background-color: aqua;
 }
+
+.active {
+  color: white ;
+  text-decoration: none;
+  border: none ;
+}
+
+a {
+  color: white ;
+  text-decoration: none;
+  border: none ;
+}
+

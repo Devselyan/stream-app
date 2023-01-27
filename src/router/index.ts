@@ -6,8 +6,14 @@ const router = createRouter({
     {
       component: Home,
       path:"/"
+    },
+    {
+      component: () => import("../views/About.vue"),
+      path:"/about"
     }
   ],
+  linkActiveClass: "active",
+  linkExactActiveClass: "exact-active"
 });
 
 export default router;

@@ -9,12 +9,12 @@ function toggleDropdown() {
 <template>
     <div class="header-section row g-0">
         <div class="col-1 d-flex justify-content-center align-items-center">
-            <div class="title">Streamer</div>
+            <div class="title">Dev's site</div>
         </div>
         <div class="col d-flex justify-content-center align-items-center ">
-            <div class="nav-item me-3">Home</div>
-            <div class="nav-item">About</div>
-        </div>
+            <router-link to="/" class="me-4" >Home</router-link>
+            <router-link to="/about" >About</router-link>
+        </div>s
         <div class="col-1 d-flex justify-content-center align-items-center">
             <div class="user-section">
                 <div @click="toggleDropdown" class="user-profile"></div>
@@ -34,13 +34,14 @@ function toggleDropdown() {
     bottom: 0 ;
     left: 0 ;
     width: 100% ;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(238, 33, 133);
     transform: scale(0);
-    transition: transform 0.5s ease-out;
+    transition: transform 0.2s ease-out;
 
 }
 .nav-item {
     cursor: pointer ;
+    color: rgb(238, 33, 133) ;
     
 }
 .dropdown {
@@ -55,7 +56,7 @@ function toggleDropdown() {
     position: relative ;
 }
 .user-profile:hover {
-    border: 3px solid black ;
+    border: 3px solid rgb(238, 33, 133) ;
 }
 .user-profile {
     height: 4rem;
@@ -67,11 +68,12 @@ function toggleDropdown() {
 .title {
     font-weight: 500 ;
     font-size: 2rem;
+    color: rgb(238, 33, 133) ;
 }
 .header-section {
     height: 5rem;
     width: 100% ;
-    background-color: red;
+    background-color: black;
     position: fixed ;
     top: 0 ;
     left: 0% ;
