@@ -34,7 +34,7 @@ function toggleDropdown() {
     bottom: 0 ;
     left: 0 ;
     width: 100% ;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid red;
     transform: scale(0);
     transition: transform 0.5s ease-out;
 
