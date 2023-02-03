@@ -9,6 +9,9 @@
         <div class="col text-center">
             <div class="content-section ">
                 <div class="title-section">Present</div>
+                <div class="present-info">
+                    They called me master changes came faster
+                </div>
             </div>
         </div>
         <div class="col text-center">
@@ -29,5 +32,10 @@
     color:black ;
     font-weight: 500 ;
     font-size: 2rem;
+}
+
+.present-info {
+    font-weight: 100;
+    font-size:100%; 
 }
 </style>
