@@ -10,7 +10,7 @@
             <div class="content-section ">
                 <div class="title-section">Present</div>
                 <div class="present-info">
-                    They called me master changes came faster
+                    <router-link to="/present" >Click to know more</router-link>
                 </div>
             </div>
         </div>
@@ -26,16 +26,16 @@
 .content-section {
     height: 500px;
     width: 100%;
-    background-color: rgb(243, 9, 185);
+    background-color: rgb(100, 12, 122);
 }
 .main-section {
-    color:black ;
+    color:rgb(217, 231, 16) ;
     font-weight: 500 ;
     font-size: 2rem;
 }
 
 .present-info {
-    font-weight: 100;
-    font-size:100%; 
+    font-weight: 10;
+    font-size:80%; 
 }
 </style>
