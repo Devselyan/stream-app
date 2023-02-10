@@ -10,6 +10,10 @@ const router = createRouter({
     {
       component: () => import("../views/About.vue"),
       path:"/about"
+    },
+    {
+      component: () => import("../components/Present.vue"),
+      path:"/present"
     }
   ],
   linkActiveClass: "active",

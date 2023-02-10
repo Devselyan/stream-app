@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Present } from "@/components"
+</script>
+
+
 <template>
     <div class="main-section row align-items-center">
         <div class="col">
