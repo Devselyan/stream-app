@@ -14,7 +14,7 @@ import { Present } from "@/components"
             <div class="content-section ">
                 <div class="title-section">Present</div>
                 <div class="present-info">
-                    <router-link to="/present" >Click to know more!</router-link>
+                    <router-link class="col-text-bottom" to="/present" >Click to know more!</router-link>
                 </div>
             </div>
         </div>

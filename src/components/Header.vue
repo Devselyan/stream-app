@@ -1,15 +1,22 @@
 <script setup lang="ts">
 import { ref } from 'vue'; 
+import { useRouter } from "vue-router"
 
 const toggle_dropdown=ref(false)
 function toggleDropdown() {
     toggle_dropdown.value= !toggle_dropdown.value
 }
+
+const router = useRouter()
+
+function goToHome(){
+    router.push("/")
+}
 </script>
 <template>
     <div class="header-section row g-0">
         <div class="col-1 d-flex justify-content-center align-items-center">
-            <div class="title">Dev's site</div>
+            <div @click="goToHome" class="title home">Dev's site</div>
         </div>
         <div class="col d-flex justify-content-center align-items-center ">
             <router-link to="/" class="me-4" >Home</router-link>
@@ -25,6 +32,9 @@ function toggleDropdown() {
 </template>
 
 <style scoped>
+.home {
+    cursor: pointer;
+}
 .nav-item:hover::after {
     transform: scale(1) ;
 }
