@@ -14,7 +14,13 @@ import { Present } from "@/components"
             <div class="content-section ">
                 <div class="title-section">Present</div>
                 <div class="present-info">
-                    <router-link class="col-text-bottom" to="/present" >Click to know more!</router-link>
+                    <div class="present-text">
+                        Teacher in Future School
+                        <img src="" alt="">
+                    </div>
+                    <div class="present-click">
+                        <router-link to="/present" >Click to know more!</router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,4 +48,9 @@ import { Present } from "@/components"
     font-weight: 10;
     font-size:80%; 
 }
+
+.present-text {
+    color:aquamarine ;
+}
+
 </style>
