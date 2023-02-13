@@ -46,10 +46,22 @@ import { Past } from "@/components"
                 </div>
             </div>
         </div>
-    </div>  
+        <div class=" below-section text-center align-items-center">
+        Links
+        <div><a href="https://www.instagram.com/_._d.e_/?hl=en" target="_blank">Instagram</a></div>
+        <div><a href="https://www.facebook.com/Devselyan/" target="_blank">Facebook</a></div>
+        </div>
+    </div> 
 </template>
 
 <style>
+
+.below-section {
+    margin-top: 4rem;
+    height: 200px;
+    width: 75%;
+    background-color: rgb(14, 138, 24);
+}
 .content-section {
     height: 500px;
     width: 100%;
@@ -60,7 +72,6 @@ import { Past } from "@/components"
     font-weight: 500 ;
     font-size: 2rem;
 }
-
 
 .present-text  {
     color:aquamarine ;
@@ -73,4 +84,6 @@ import { Past } from "@/components"
 .future-text  {
     color:aquamarine ;
 }
+
+
 </style >
