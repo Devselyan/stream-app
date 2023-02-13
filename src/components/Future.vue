@@ -1,16 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts"></script>s
 
 <template>
     <div class="h1 text-center">
-        <h1>Present</h1>
+        <h1>Future</h1>
     </div>
     <div class="info-container">
         <div class="text text-center">
-            Teaching in Future School
+            Student in College
         </div>
     </div>
 </template>
-
 
 <style scoped>
 .info-container {

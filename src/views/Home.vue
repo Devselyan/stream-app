@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Present } from "@/components"
+import { Future } from "@/components"
+import { Past } from "@/components"
 </script>
 
 
@@ -8,9 +10,12 @@ import { Present } from "@/components"
         <div class="col">
             <div class="content-section text-center">
                 <div class="title-section">Past</div>
-                <div class="present-text">
+                <div class="past-text">
                         Student in Future School
                         <img src="https://cdn.pixabay.com/photo/2018/06/27/07/45/college-student-3500990__340.jpg" alt="">
+                    </div>
+                    <div class="past-click">
+                        <router-link to="/past" >Click to know more!</router-link>
                     </div>
             </div>
         </div>
@@ -31,10 +36,13 @@ import { Present } from "@/components"
         <div class="col text-center">
             <div class="content-section ">
                 <div class="title-section">Future</div>
-                <div class="present-text">
-                    College
+                <div class="future-text">
+                    Student in College
                     <img src="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641" style="width: 531px; height: 360px;">
                     <img src="" alt="">
+                    <div class="future-click">
+                        <router-link to="/future" >Click to know more!</router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,13 +61,16 @@ import { Present } from "@/components"
     font-size: 2rem;
 }
 
-.present-info {
-    font-weight: 10;
-    font-size:80%; 
-}
 
-.present-text {
+.present-text  {
     color:aquamarine ;
 }
 
+.past-text  {
+    color:aquamarine ;
+}
+
+.future-text  {
+    color:aquamarine ;
+}
 </style >

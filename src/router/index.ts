@@ -14,6 +14,14 @@ const router = createRouter({
     {
       component: () => import("../components/Present.vue"),
       path:"/present"
+    },
+    {
+      component: () => import("../components/Past.vue"),
+      path:"/past"
+    },
+    {
+      component: () => import("../components/Future.vue"),
+      path:"/future"
     }
   ],
   linkActiveClass: "active",

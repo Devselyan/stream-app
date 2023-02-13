@@ -2,15 +2,14 @@
 
 <template>
     <div class="h1 text-center">
-        <h1>Present</h1>
+        <h1>Past</h1>
     </div>
     <div class="info-container">
         <div class="text text-center">
-            Teaching in Future School
+            Student in Future School
         </div>
     </div>
 </template>
-
 
 <style scoped>
 .info-container {
