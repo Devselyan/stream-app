@@ -6,11 +6,16 @@
     </div>
     <div class="info-container">
         <div class="text text-center">
-            Teaching in Future School
+            Teaching in Future School.
+            Things I do :
+            Teach,
+            Correct HW,
+            make tests,
+            correct tests,
+            
         </div>
     </div>
 </template>
-
 
 <style scoped>
 .info-container {
@@ -25,7 +30,7 @@
     font-size: 100px ;
     font-weight: 600 ;
     font-style: oblique;
-    color: white ;
-
+    color: pink ;
+    text-indent: 50px;
 }
 </style>

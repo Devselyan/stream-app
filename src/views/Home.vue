@@ -4,7 +4,6 @@ import { Future } from "@/components"
 import { Past } from "@/components"
 </script>
 
-
 <template>
     <div class="main-section row align-items-center">
         <div class="col">
@@ -12,9 +11,9 @@ import { Past } from "@/components"
                 <div class="title-section">Past</div>
                 <div class="past-text">
                         Student in Future School
-                        <img src="https://cdn.pixabay.com/photo/2018/06/27/07/45/college-student-3500990__340.jpg" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/27/07/45/college-student-3500990__340.jpg" style="width: 531px; height: 360px;">
                     </div>
-                    <div class="past-click">
+                    <div class="click">
                         <router-link to="/past" >Click to know more!</router-link>
                     </div>
             </div>
@@ -25,9 +24,9 @@ import { Past } from "@/components"
                 <div class="present-info">
                     <div class="present-text">
                         Teacher in Future School
-                    <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg" alt="">
+                    <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg" style="width: 531px; height: 360px;">
                     </div>
-                    <div class="present-click">
+                    <div class="click">
                         <router-link to="/present" >Click to know more!</router-link>
                     </div>
                 </div>
@@ -40,9 +39,9 @@ import { Past } from "@/components"
                     Student in College
                     <img src="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641" style="width: 531px; height: 360px;">
                     <img src="" alt="">
-                    <div class="future-click">
-                        <router-link to="/future" >Click to know more!</router-link>
-                    </div>
+                </div>
+                <div class="click">
+                    <router-link to="/future" >Click to know more!</router-link>
                 </div>
             </div>
         </div>
@@ -65,7 +64,7 @@ import { Past } from "@/components"
 .content-section {
     height: 500px;
     width: 100%;
-    background-color: rgb(100, 12, 122);
+    background-color: rgb(71, 30, 255);
 }
 .main-section {
     color:rgb(217, 231, 16) ;
@@ -74,16 +73,21 @@ import { Past } from "@/components"
 }
 
 .present-text  {
+    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
 .past-text  {
+    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
 .future-text  {
+    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
-
+.click {
+    text-shadow: 2px 2px 2px #15ff00
+}
 </style >
