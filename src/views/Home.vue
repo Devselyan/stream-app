@@ -45,49 +45,60 @@ import { Past } from "@/components"
                 </div>
             </div>
         </div>
-        <div class=" below-section text-center align-items-center">
-        Links
-        <div><a href="https://www.instagram.com/_._d.e_/?hl=en" target="_blank">Instagram</a></div>
-        <div><a href="https://www.facebook.com/Devselyan/" target="_blank">Facebook</a></div>
-        </div>
+        
     </div> 
+    <div class="below-section text-center">
+        Links
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <div><a href="https://www.instagram.com/_._d.e_/?hl=en" target="_blank"><i class="fab fa-instagram"></i><span class="social-link-text">Instagram</span></a></div>
+        <div><a href="https://www.facebook.com/Devselyan/" target="_blank"><i class="fab fa-facebook-f"></i><span class="social-link-text">Facebook</span></a></div>
+    </div>
 </template>
 
 <style>
 
 .below-section {
-    margin-top: 4rem;
+    top: 50px ;
     height: 200px;
-    width: 75%;
-    background-color: rgb(14, 138, 24);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    color:rgb(217, 231, 16) ;
+    font-weight: 500 ;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #ff00dd
+
 }
 .content-section {
+    margin-top: 2rem;
     height: 500px;
     width: 100%;
-    background-color: rgb(71, 30, 255);
+    background-color: rgb(0, 0, 0);
 }
 .main-section {
+    text-shadow: 2px 2px 2px #ff00dd;
     color:rgb(217, 231, 16) ;
     font-weight: 500 ;
     font-size: 2rem;
 }
 
 .present-text  {
-    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
 .past-text  {
-    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
 .future-text  {
-    text-shadow: 2px 2px 2px #ff00dd;
     color:aquamarine ;
 }
 
 .click {
     text-shadow: 2px 2px 2px #15ff00
+}
+
+.social-link-text {
+  padding-left: 10px;
 }
 </style >

@@ -11,8 +11,7 @@
             Teach,
             Correct HW,
             make tests,
-            correct tests,
-            
+            correct tests
         </div>
     </div>
 </template>

@@ -15,7 +15,7 @@ import { Header } from "@/components"
 .app-container {
   width: 90% ;
   height: calc(100vh - 5rem) ;
-  background-color: rgb(136, 43, 223);
+  background-color: rgb(226, 230, 28);
   margin: auto ;
   margin-top: 5rem ;
 }
