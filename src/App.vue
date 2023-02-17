@@ -13,7 +13,7 @@ import { Header } from "@/components"
 
 <style scoped>
 .app-container {
-  width: 90% ;
+  width: 100% ;
   height: calc(100vh - 5rem) ;
   background-color: rgb(226, 230, 28);
   margin: auto ;
