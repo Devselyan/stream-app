@@ -5,13 +5,13 @@ import { Teacher, Student, CollegeStudent } from "@/assets"
 const card_data = [
     {
         title: "Past",
-        sub_title: "Student",
+        sub_title: "Student in Future School",
         img_file: Student,
         route_name: "pastView"
     },
     {
         title: "Present",
-        sub_title: "Teacher",
+        sub_title: "Teacher in Future School",
         img_file: Teacher,
         route_name: "presentView"
     },
