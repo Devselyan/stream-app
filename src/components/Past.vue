@@ -1,12 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { TaskPopup } from "@/components"
+import { ref } from "vue";
+
+const show_popup = ref(false)
+function closePopup() {
+    show_popup.value = false;
+}
+</script>
 
 <template>
     <div class="h1 text-center">
         <h1>Past</h1>
     </div>
-    <div class="info-container">
+    <div @click="show_popup = true" class="info-container">
         <div class="text text-center">
             Student in Future School
+            <TaskPopup @close="closePopup" v-if="show_popup"></TaskPopup>
         </div>
     </div>
 </template>
