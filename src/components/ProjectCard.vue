@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { useRouter } from "vue-router"
 
-const { title, sub_title, img_file, route_name } = defineProps({
+const { title, sub_title } = defineProps({
     title: {
         type: String,
         required: true
@@ -31,7 +30,7 @@ const { title, sub_title, img_file, route_name } = defineProps({
 .card-outer-section {
     height: 500px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(184, 9, 90);
     cursor: pointer;
 }
 </style>
